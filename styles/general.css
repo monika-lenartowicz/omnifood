@@ -13,9 +13,15 @@ Bold: 700
 - Line heights:
  default:  1
  small: 1.05 
+ midium: 1.2
  paragraph: 1.6
 
-- SPACING SYSTEM (px) 
+
+ -letter spacing:
+-0.5px
+0.75px
+
+ - SPACING SYSTEM (px) 
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
 
 --- 02 COLORS:
