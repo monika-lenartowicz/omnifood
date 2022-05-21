@@ -30,15 +30,16 @@ Bold: 700
 - Primary: #e67e22
 - Tints:#fdf2e9, #fae5d3
 - Shades:#cf711f
-- Accents:
+- Accents:#51cf66 #94d82d #ffd43b
 - Greys: #555, #333, 
  
 
 --- 05 SHADOWS 
 
+
 --- 06 BORDER-RADIUS
 Default: 8px
-
+medium: 12px 
 --- 07 WHITESPACE
 
 - SPACING SYSTEM (px) 
@@ -107,4 +108,8 @@ html {
 
 .margin-right-small {
 	margin-right: 1.6rem;
+}
+
+strong {
+	font-weight: 500;
 }
