@@ -34,6 +34,10 @@
 	grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+	grid-template-columns: repeat(5, 1fr);
+}
+
 .secondary-heading,
 .heading-tertiary {
 	font-weight: 700;
