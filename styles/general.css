@@ -29,7 +29,7 @@ Bold: 700
 
 - Primary: #e67e22
 - Tints:#fdf2e9, #fae5d3
-- Shades:#cf711f
+- Shades:#cf711f #eb984e #45260a
 - Accents:#51cf66 #94d82d #ffd43b
 - Greys: 
 #fdf2e9(lightest grey allowed on #fdf2e9
@@ -38,7 +38,10 @@ Bold: 700
  
 
 --- 05 SHADOWS 
-
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+box-shadow: 0 0 0 0.8rem rgb(253, 242, 233, 0.5);
+box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 
 --- 06 BORDER-RADIUS
 Default: 8px
@@ -75,16 +78,19 @@ html {
 	margin-bottom: 3.2rem;
 }
 
+.button,
 .button:link,
 .button:visited {
 	display: inline-block;
-	font-size: 2rem;
-	color: #fff;
-	padding: 1.6rem 3.2rem;
 	text-decoration: none;
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 1.6rem 3.2rem;
 	border-radius: 8px;
 	transition: all 0.3s;
-	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	color: #fff;
 }
 
 .button--full:link,
@@ -130,6 +136,11 @@ html {
 
 .container.grid.margin-bottom-medium {
 	margin-bottom: 4.8rem;
+}
+
+*:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 .center-text {
