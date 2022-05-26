@@ -11,10 +11,6 @@
 	height: 2.2rem;
 }
 
-.main-navigation {
-	/* font-size: 2rem; */
-}
-
 .main-navigation-list {
 	display: flex;
 	align-items: center;
