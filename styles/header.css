@@ -45,3 +45,19 @@
 .main-navigation-link:active {
 	color: #cf711f;
 }
+
+.button-mobile-navigation {
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: none;
+}
+
+.icon-mobile-navigation {
+	font-size: 4.8rem;
+	color: #333;
+}
+
+.icon--close {
+	display: none;
+}
