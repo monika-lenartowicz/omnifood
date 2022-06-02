@@ -203,3 +203,71 @@
 		margin-bottom: 3.2rem;
 	}
 }
+
+/* bellow 544px (phones) 544/16 */
+@media (max-width: 34em) {
+	.grid {
+		row-gap: 4.8rem;
+	}
+	.grid--2-cols,
+	.grid--3-cols,
+	.grid--4-cols {
+		grid-template-columns: 1fr;
+	}
+
+	.section-hero {
+		padding: 2.4rem 0 6.4rem 0;
+	}
+
+	.hero {
+		padding: 0 3.2rem;
+	}
+
+	.button,
+	.button:link,
+	.button:visited {
+		padding: 2.4rem 1.6rem;
+	}
+
+	.hero-image {
+		width: 80%;
+	}
+
+	.logos-image {
+		height: 1.2rem;
+	}
+
+	.step-image-box {
+		transform: translateY(2.4rem);
+	}
+
+	.step-image-box--first {
+		grid-row: 1;
+	}
+
+	.step-image-box--last {
+		grid-row: 5;
+	}
+
+	.testimonials {
+		grid-template-columns: 1fr;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1.2rem;
+	}
+
+	.cta {
+		grid-template-columns: 1fr;
+	}
+
+	.cta-image-box {
+		height: 32rem;
+		grid-row: 1;
+	}
+
+	.cta-text-box {
+		padding: 3.2rem;
+	}
+}
