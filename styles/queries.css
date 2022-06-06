@@ -114,12 +114,13 @@
 		grid-template-columns: 1fr;
 	}
 
-	.button-- form {
+	.button--form {
 		margin-top: 1.2rem;
 	}
 
 	.button-mobile-navigation {
 		display: block;
+		z-index: 1000;
 	}
 
 	.main-navigation {
