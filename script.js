@@ -31,4 +31,28 @@ allLinks.forEach(function (link) {
 	});
 });
 
+const sectionHeroElement = document.querySelector('.section-hero');
+
+const observer = new IntersectionObserver(
+	function (entries) {
+		const ent = entries[0];
+		!ent.isIntersecting
+			? document.querySelector('.body').classList.add('sticky')
+			: document.querySelector('.body').classList.remove('sticky');
+
+		// if (!ent.isIntersecting) {
+		// 	document.querySelector('.body').classList.add('sticky');
+		// }
+		// if (ent.isIntersecting) {
+		// 	document.querySelector('.body').classList.remove('sticky');
+		// }
+	},
+	{
+		root: null, // mines viewport//
+		threshold: 0,
+		rootMargin: '-80px',
+	}
+);
+observer.observe(sectionHeroElement);
+
 menu.addEventListener('click', changeClassToMenuMobile);
