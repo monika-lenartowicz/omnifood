@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fdf2e9;
-	height: 8rem;
+	height: 9.6rem;
 	padding: 0 4.8rem;
 	position: relative;
 }
@@ -45,6 +45,23 @@
 .main-navigation-link:hover,
 .main-navigation-link:active {
 	color: #cf711f;
+}
+
+.sticky .header {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 8rem;
+	padding-top: 0;
+	padding-bottom: 0;
+	z-index: 999;
+	background-color: rgba(255, 255, 255, 0.97);
+	box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+	margin-top: 9.6rem;
 }
 
 .button-mobile-navigation {
